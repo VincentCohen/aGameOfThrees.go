@@ -1,5 +1,7 @@
 # A Game Of Threes
+Following the Game Of Threes challenge on Reddit: 
 https://www.reddit.com/r/dailyprogrammer/comments/3r7wxz/20151102_challenge_239_easy_a_game_of_threes/
+
 First, you mash in a random large number to start with. Then, repeatedly do the following:
 
 - If the number is divisible by 3, divide it by 3.
@@ -22,4 +24,6 @@ Example: 100
 Make sure you have Go installed and checkout `master`.
 
 Run `go run main.go`, when prompted with `"Enter a number:"` choose a number and hit enter
+
+
 
