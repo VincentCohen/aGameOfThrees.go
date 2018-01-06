@@ -19,7 +19,6 @@ func calc(number int) {
 	}
 
 	if isDividable(number) {
-
 		fmt.Println(number, "0")
 
 		number = divide(number)
