@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	// Ask the question
 	str := "Enter a number: "
 	fmt.Print(str)
 
@@ -26,23 +23,19 @@ func calc(number int) {
 		fmt.Println(number, "0")
 
 		number = divide(number)
-
-		calc(number)
 	} else {
 		if isDividable(number - 1) {
 			fmt.Println(number, "-1")
 
 			number = divide(minus(number))
-
-			calc(number)
 		} else {
 			fmt.Println(number, "+1")
 
 			number = divide(add(number))
-
-			calc(number)
 		}
 	}
+
+	calc(number)
 }
 
 func isDividable(number int) bool {
