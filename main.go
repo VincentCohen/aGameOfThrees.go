@@ -6,7 +6,7 @@ import (
 
 func main() {
 	// Ask the question
-	str := "Enter a number to divide: "
+	str := "Enter a number: "
 	fmt.Print(str)
 
 	var num int
